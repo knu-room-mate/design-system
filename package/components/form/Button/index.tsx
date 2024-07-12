@@ -3,7 +3,7 @@ import { ButtonElement } from "./index.style";
 import { Size } from "@/types/utils";
 
 export interface ButtonProps extends ComponentProps<"button"> {
-    variants: "primary" | "secondary";
+    variants: "primary" | "secondary" | "disabled";
     width: Size;
     height: Size;
     children: React.ReactNode;

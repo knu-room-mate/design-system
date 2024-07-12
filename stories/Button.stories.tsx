@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Button } from ".";
+import { Button } from "../package/components/form/Button";
 
 const meta = {
     title: "Form/Button",
@@ -21,6 +21,15 @@ export const Primary: Story = {
 export const Secondary: Story = {
     args: {
         variants: "secondary",
+        width: "200px",
+        height: "50px",
+        children: "Button",
+    },
+};
+
+export const Disabled: Story = {
+    args: {
+        variants: "disabled",
         width: "200px",
         height: "50px",
         children: "Button",

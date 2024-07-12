@@ -2,6 +2,8 @@ import styled from "@emotion/styled";
 import { ButtonProps } from ".";
 
 export const ButtonElement = styled.button<ButtonProps>`
+    display: block;
+
     width: ${(props) => props.width};
     height: ${(props) => props.height};
 
@@ -14,6 +16,8 @@ export const ButtonElement = styled.button<ButtonProps>`
                 return "#d73a32";
             case "secondary":
                 return "#d73a32";
+            case "disabled":
+                return "#BEBEBE";
         }
     }};
 
@@ -23,6 +27,8 @@ export const ButtonElement = styled.button<ButtonProps>`
                 return "#d73a32";
             case "secondary":
                 return "#fff";
+            case "disabled":
+                return "#BEBEBE";
         }
     }};
 
@@ -32,10 +38,15 @@ export const ButtonElement = styled.button<ButtonProps>`
                 return "#fff";
             case "secondary":
                 return "#d73a32";
+            case "disabled":
+                return "#eee";
         }
     }};
 
     &:hover {
         cursor: pointer;
+    }
+    &:focus {
+        outline: none;
     }
 `;
