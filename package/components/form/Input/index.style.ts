@@ -30,6 +30,8 @@ export const InputElement = styled.input<InputProps>`
 
     padding: 0px 15px;
 
+    background-color: #fff;
+
     &:focus {
         outline: 2px solid #d73a32;
     }
