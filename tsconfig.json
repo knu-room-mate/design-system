@@ -27,6 +27,6 @@
             "@/*": ["package/*"]
         }
     },
-    "include": ["package", "index.ts"],
+    "include": ["package", "index.ts", "stories/Button.stories.tsx"],
     "exclude": ["**/*.stories.ts", "**/*.stories.tsx"]
 }

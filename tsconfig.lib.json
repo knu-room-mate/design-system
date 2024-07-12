@@ -27,5 +27,6 @@
             "@/*": ["package/*"]
         }
     },
-    "include": ["package", "index.ts"]
+    "include": ["package", "index.ts"],
+    "exclude": ["**/*.stories.ts", "**/*.stories.tsx"]
 }
