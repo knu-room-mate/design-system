@@ -26,3 +26,12 @@ export const Secondary: Story = {
         children: "Button",
     },
 };
+
+export const Disabled: Story = {
+    args: {
+        variants: "disabled",
+        width: "200px",
+        height: "50px",
+        children: "Button",
+    },
+};
