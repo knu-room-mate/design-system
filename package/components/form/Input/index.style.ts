@@ -1,6 +1,24 @@
 import styled from "@emotion/styled";
 import { InputProps } from ".";
 
+export const InputWrapper = styled.div`
+    position: relative;
+    width: fit-content;
+`;
+
+export const InputContainer = styled.div`
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: flex;
+    align-items: center;
+
+    margin-right: 5px;
+
+    height: 100%;
+`;
+
 export const InputElement = styled.input<InputProps>`
     display: block;
 
