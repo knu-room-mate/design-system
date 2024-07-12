@@ -11,4 +11,8 @@ export const InputElement = styled.input<InputProps>`
     border: 1px solid #bebebe;
 
     padding: 0px 15px;
+
+    &:focus {
+        outline: 2px solid #d73a32;
+    }
 `;
