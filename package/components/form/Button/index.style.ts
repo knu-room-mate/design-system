@@ -16,6 +16,8 @@ export const ButtonElement = styled.button<ButtonProps>`
                 return "#d73a32";
             case "secondary":
                 return "#d73a32";
+            case "disabled":
+                return "#BEBEBE";
         }
     }};
 
@@ -25,6 +27,8 @@ export const ButtonElement = styled.button<ButtonProps>`
                 return "#d73a32";
             case "secondary":
                 return "#fff";
+            case "disabled":
+                return "#BEBEBE";
         }
     }};
 
@@ -34,6 +38,8 @@ export const ButtonElement = styled.button<ButtonProps>`
                 return "#fff";
             case "secondary":
                 return "#d73a32";
+            case "disabled":
+                return "#eee";
         }
     }};
 
