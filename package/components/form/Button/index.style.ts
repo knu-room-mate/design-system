@@ -2,6 +2,8 @@ import styled from "@emotion/styled";
 import { ButtonProps } from ".";
 
 export const ButtonElement = styled.button<ButtonProps>`
+    display: block;
+
     width: ${(props) => props.width};
     height: ${(props) => props.height};
 
@@ -37,5 +39,8 @@ export const ButtonElement = styled.button<ButtonProps>`
 
     &:hover {
         cursor: pointer;
+    }
+    &:focus {
+        outline: none;
     }
 `;
